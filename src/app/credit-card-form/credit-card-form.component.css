@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form-group.expiry {
+  display: flex;
+  gap: 20px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.message-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.success-message {
+  color: #4CAF50;
+}
+
+.failure-message {
+  color: #FF5733;
+}
+
+.icon-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.large-icon {
+  font-size: 48px;
+}
+
+.icon-message-container .message {
+  margin-top: 8px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 8px;
+}
+
+
+
