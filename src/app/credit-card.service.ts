@@ -8,7 +8,7 @@ import {CreditCardRequest} from "./models/credit-card-request";
 })
 export class CreditCardService {
 
-  private baseUrl = 'http://localhost:8080/v1/credit-card'; // Update the URL as per your backend API
+  private baseUrl = 'http://localhost:8080/v1/credit-card';
 
   constructor(private http: HttpClient) {}
 
